@@ -1,0 +1,53 @@
+.imaginary-image-wrapper {
+    overflow: hidden;
+}
+#imaginary_image_field .inside {
+    overflow: hidden;
+    margin: 0px;
+    padding: 12px;
+}
+.imaginary-image {
+    float: left;
+    position: relative;
+    margin: 8px;
+}
+.imaginary-image:hover {
+    cursor: move;
+}
+.imaginary-image img {
+    max-width: 108px;
+    max-height: 108px;
+    display: block;
+}
+.imaginary-image-menu {
+    display: none;
+}
+.imaginary-image:hover .imaginary-image-menu {
+    display: block;
+}
+.imaginary-image .imaginary-image-id {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    font-size: 12px;
+    line-height: 23px;
+    width: 26px;
+    text-shadow: 0 1px 2px #555;
+}
+.imaginary-image .check div {
+    background-position: -60px 0 !important;
+}
+.imaginary-buttons {
+    clear: both;
+    margin-top: 10px;
+}
+.imaginary-buttons a {
+    margin: 0 10px 0 3px;
+}
+#imaginary-settings-overridden {
+    margin-top: 10px;
+}
+.ui-sortable-placeholder {
+    background: #eee !important;
+    visibility: visible !important;
+}
